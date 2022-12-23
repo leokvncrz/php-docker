@@ -1,0 +1,4 @@
+sessions/
+logs/
+mysqldata/
+phyrem_db*

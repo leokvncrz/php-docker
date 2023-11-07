@@ -33,8 +33,8 @@ services:
     image: mysql:8.0
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
-      MYSQL_USER: 'admin'
-      MYSQL_PASSWORD: 'admin'
+      MYSQL_USER: 'phyrem'
+      MYSQL_PASSWORD: 'phyrem'
       MYSQL_DATABASE: 'phyrem_db'
     volumes:
       - ./mysqldata:/var/lib/mysql
